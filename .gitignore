@@ -6,3 +6,4 @@ lib*.a
 *.gcov
 tests
 report
+.vscode
