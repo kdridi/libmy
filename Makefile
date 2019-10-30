@@ -1,5 +1,5 @@
 OPEN		=	open
-CC			=	clang
+CC			=	gcc
 RM			=	rm -rf
 
 CFLAGS		=	-W -Wall -Wextra -Werror
