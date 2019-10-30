@@ -40,7 +40,4 @@ report		:	test
 				genhtml -o $@ -t "couverture de code des tests" coverage.info
 				$(OPEN) $@/index.html
 
-codecov		:	test
-				curl -s https://codecov.io/bash | CODECOV_TOKEN=d1d0158f-d58d-46d9-8019-fd7ade8f47d6 bash
-
 .PHONY		:	all clean fclean re test report
